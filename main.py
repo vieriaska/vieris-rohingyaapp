@@ -1,24 +1,30 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from scipy.sparse import vstack
 import json
-
+import joblib
 import string
 import re
-
-# import nltk
+import csv
+import nltk
+import matplotlib.pyplot as plt
 import preprocessor as p
 import seaborn as sns
 import plotly.express as px
 import plotly.figure_factory as ff
 
 from wordcloud import WordCloud
-# from sklearn.svm import SVC
+from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from nlp_id.tokenizer import Tokenizer
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import confusion_matrix, classification_report
 
