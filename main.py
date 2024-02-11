@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import scipy
-from scipy.sparse import vstack
 import json
 import joblib
 import string
