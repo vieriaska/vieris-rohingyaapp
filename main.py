@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
 from scipy.sparse import vstack
 import json
 import joblib
@@ -11,7 +9,6 @@ import string
 import re
 import csv
 import nltk
-import matplotlib.pyplot as plt
 import preprocessor as p
 import seaborn as sns
 import plotly.express as px
