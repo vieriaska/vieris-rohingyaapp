@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-# from scipy.sparse import vstack
+from scipy.sparse import vstack
 import json
-# import joblib
+import joblib
 import string
 import re
-# import csv
-# import nltk
+import csv
+import nltk
 import preprocessor as p
 import seaborn as sns
 import plotly.express as px
