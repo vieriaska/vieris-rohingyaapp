@@ -12,3 +12,4 @@ wordcloud==1.8.1
 scikit-learn==0.24.2
 SastraWI==1.0.1
 nlp-id==0.0.6
+tweet-preprocessor==0.6.0
