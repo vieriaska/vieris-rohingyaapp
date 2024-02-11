@@ -6,7 +6,7 @@ import json
 import string
 import re
 
-import nltk
+# import nltk
 import preprocessor as p
 import seaborn as sns
 import plotly.express as px
